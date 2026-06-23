@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /bedankt.html
+Disallow: /404.html
+
+Sitemap: https://vechtsport-school.nl/sitemap.xml

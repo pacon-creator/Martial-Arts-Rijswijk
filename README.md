@@ -18,4 +18,13 @@ Open `index.html` locally, or deploy the folder to any static host such as GitHu
 
 ## Launch Notes
 
-Before publishing, replace placeholder phone and WhatsApp numbers with the real school contact details.
+Before publishing, replace these required live values:
+
+- `TODO_REAL_PHONE_NUMBER`
+- `TODO_REAL_PHONE_E164`
+- `TODO_REAL_WHATSAPP_NUMBER`
+- `TODO_FORMSPREE_ID`
+- `TODO_GTM_CONTAINER_ID`
+- Google reviews URL in `work/generate-vechtsportschool-site.js`
+
+The gallery currently uses distinct temporary facility placeholders. Replace them with real gym photos when available.
