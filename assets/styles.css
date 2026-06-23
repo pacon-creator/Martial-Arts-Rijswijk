@@ -858,3 +858,323 @@ th {
     transition: none !important;
   }
 }
+
+/* =============================================
+   LANGUAGE SWITCHER
+   ============================================= */
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 16px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.lang-switch a {
+  color: var(--color-text-muted, #8A8A8A);
+  text-decoration: none;
+  padding: 4px 6px;
+  border-radius: 3px;
+  transition: color 0.2s ease;
+}
+
+.lang-switch a.active {
+  color: #FFFFFF;
+}
+
+.lang-switch a:hover {
+  color: #FFFFFF;
+}
+
+.lang-switch .sep {
+  color: var(--color-text-muted, #8A8A8A);
+  user-select: none;
+}
+
+@media (max-width: 767px) {
+  .lang-switch {
+    margin-left: 8px;
+    font-size: 12px;
+  }
+}
+
+/* =============================================
+   GOOGLE REVIEWS SECTION
+   ============================================= */
+
+.reviews-aggregate {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.reviews-aggregate .rating-score {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 72px;
+  line-height: 1;
+  color: #FFFFFF;
+}
+
+.reviews-aggregate .rating-stars {
+  font-size: 28px;
+  color: #F5C518;
+  letter-spacing: 2px;
+}
+
+.reviews-aggregate .rating-meta {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #8A8A8A;
+  line-height: 1.5;
+}
+
+.reviews-aggregate .rating-meta strong {
+  display: block;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.reviews-google-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: #8A8A8A;
+}
+
+.reviews-google-logo svg {
+  flex-shrink: 0;
+}
+
+.review-disclaimer {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: #8A8A8A;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* =============================================
+   ANIMATIONS - SCROLL REVEAL
+   ============================================= */
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+[data-reveal].revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-reveal="left"] {
+  transform: translateX(-24px);
+}
+
+[data-reveal="left"].revealed {
+  transform: translateX(0);
+}
+
+[data-reveal="right"] {
+  transform: translateX(24px);
+}
+
+[data-reveal="right"].revealed {
+  transform: translateX(0);
+}
+
+[data-reveal="scale"] {
+  transform: scale(0.96);
+}
+
+[data-reveal="scale"].revealed {
+  transform: scale(1);
+}
+
+[data-reveal-stagger] > * {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+[data-reveal-stagger].revealed > *:nth-child(1) { transition-delay: 0s; }
+[data-reveal-stagger].revealed > *:nth-child(2) { transition-delay: 0.08s; }
+[data-reveal-stagger].revealed > *:nth-child(3) { transition-delay: 0.16s; }
+[data-reveal-stagger].revealed > *:nth-child(4) { transition-delay: 0.24s; }
+[data-reveal-stagger].revealed > *:nth-child(5) { transition-delay: 0.32s; }
+[data-reveal-stagger].revealed > *:nth-child(6) { transition-delay: 0.40s; }
+[data-reveal-stagger].revealed > *:nth-child(7) { transition-delay: 0.48s; }
+[data-reveal-stagger].revealed > *:nth-child(8) { transition-delay: 0.56s; }
+[data-reveal-stagger].revealed > *:nth-child(9) { transition-delay: 0.64s; }
+
+[data-reveal-stagger].revealed > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =============================================
+   ANIMATIONS - HOVER STATES
+   ============================================= */
+
+.button {
+  transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+}
+
+.button.primary:hover,
+.button.primary:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(200, 16, 46, 0.35);
+}
+
+.button.ghost:hover,
+.button.ghost:focus-visible {
+  transform: translateY(-2px);
+}
+
+.program-card {
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+}
+
+.path-card {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.path-card:hover {
+  transform: translateY(-3px);
+}
+
+.price-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.price-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.review {
+  transition: transform 0.2s ease;
+}
+
+.review:hover {
+  transform: translateY(-3px);
+}
+
+.whatsapp-float {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+}
+
+.header-cta {
+  transition: transform 0.18s ease, background-color 0.18s ease;
+}
+
+.header-cta:hover {
+  transform: translateY(-1px);
+}
+
+.site-nav a {
+  transition: color 0.15s ease;
+}
+
+.gallery figure {
+  transition: transform 0.2s ease;
+  overflow: hidden;
+}
+
+.gallery figure:hover {
+  transform: scale(1.02);
+}
+
+.gallery figure img {
+  transition: transform 0.35s ease;
+}
+
+.gallery figure:hover img {
+  transform: scale(1.04);
+}
+
+.pillar-grid article {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.pillar-grid article:hover {
+  transform: translateY(-3px);
+}
+
+details summary {
+  transition: color 0.15s ease;
+  cursor: pointer;
+}
+
+/* =============================================
+   ANIMATIONS - PAGE LOAD FADE-IN
+   ============================================= */
+
+.hero {
+  animation: hero-fade-in 0.7s ease forwards;
+}
+
+@keyframes hero-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =============================================
+   ANIMATIONS - REDUCED MOTION OVERRIDE
+   ============================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal],
+  [data-reveal-stagger] > *,
+  .button,
+  .program-card,
+  .path-card,
+  .price-card,
+  .review,
+  .whatsapp-float,
+  .header-cta,
+  .site-nav a,
+  .gallery figure,
+  .gallery figure img,
+  .pillar-grid article,
+  details summary,
+  .hero {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+
+  [data-reveal],
+  [data-reveal-stagger] > * {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

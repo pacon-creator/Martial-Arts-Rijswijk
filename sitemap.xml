@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://vechtsport-school.nl/</loc><priority>1.0</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/index.html</loc><priority>0.9</priority></url>
   <url><loc>https://vechtsport-school.nl/gratis-proefles.html</loc><priority>0.9</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/gratis-proefles.html</loc><priority>0.9</priority></url>
   <url><loc>https://vechtsport-school.nl/mma.html</loc><priority>0.8</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/mma.html</loc><priority>0.8</priority></url>
   <url><loc>https://vechtsport-school.nl/kickboxing.html</loc><priority>0.8</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/kickboxing.html</loc><priority>0.8</priority></url>
   <url><loc>https://vechtsport-school.nl/bokszak-training.html</loc><priority>0.7</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/bokszak-training.html</loc><priority>0.7</priority></url>
   <url><loc>https://vechtsport-school.nl/grappling-no-gi.html</loc><priority>0.7</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/grappling-no-gi.html</loc><priority>0.7</priority></url>
   <url><loc>https://vechtsport-school.nl/wing-chun.html</loc><priority>0.7</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/wing-chun.html</loc><priority>0.7</priority></url>
   <url><loc>https://vechtsport-school.nl/kids-en-jeugd.html</loc><priority>0.8</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/kids-en-jeugd.html</loc><priority>0.8</priority></url>
   <url><loc>https://vechtsport-school.nl/vrouwen-training.html</loc><priority>0.8</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/vrouwen-training.html</loc><priority>0.8</priority></url>
   <url><loc>https://vechtsport-school.nl/strength-conditioning.html</loc><priority>0.6</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/strength-conditioning.html</loc><priority>0.6</priority></url>
   <url><loc>https://vechtsport-school.nl/personal-training.html</loc><priority>0.6</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/personal-training.html</loc><priority>0.6</priority></url>
   <url><loc>https://vechtsport-school.nl/contributie.html</loc><priority>0.8</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/contributie.html</loc><priority>0.8</priority></url>
   <url><loc>https://vechtsport-school.nl/lestijden.html</loc><priority>0.7</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/lestijden.html</loc><priority>0.7</priority></url>
   <url><loc>https://vechtsport-school.nl/coaches.html</loc><priority>0.6</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/coaches.html</loc><priority>0.6</priority></url>
   <url><loc>https://vechtsport-school.nl/over-ons.html</loc><priority>0.5</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/over-ons.html</loc><priority>0.5</priority></url>
   <url><loc>https://vechtsport-school.nl/contact.html</loc><priority>0.7</priority></url>
+  <url><loc>https://vechtsport-school.nl/en/contact.html</loc><priority>0.7</priority></url>
 </urlset>
