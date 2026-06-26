@@ -324,6 +324,10 @@ p {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.values-grid {
+  margin-top: 2rem;
+}
+
 .program-card,
 .path-card,
 .price-card,
