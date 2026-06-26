@@ -1,0 +1,18 @@
+{
+  "name": "vechtsportschool-rijswijk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website quality-control checks for Vechtsportschool Rijswijk.",
+  "scripts": {
+    "preview": "python3 -m http.server 8000",
+    "qc": "node scripts/qc.mjs",
+    "check": "npm run qc && npm run check:js",
+    "check:js": "node --check assets/site.js",
+    "check:html": "npx --yes html-validate \"**/*.html\"",
+    "check:lighthouse": "node scripts/lighthouse-baseline.mjs",
+    "check:full": "npm run check && npm run check:html && npm run check:lighthouse"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

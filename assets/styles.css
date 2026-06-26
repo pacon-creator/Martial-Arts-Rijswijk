@@ -33,6 +33,11 @@ img {
   max-width: 100%;
 }
 
+.gtm-hidden {
+  display: none;
+  visibility: hidden;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -317,6 +322,10 @@ p {
 
 .program-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.values-grid {
+  margin-top: 2rem;
 }
 
 .program-card,
